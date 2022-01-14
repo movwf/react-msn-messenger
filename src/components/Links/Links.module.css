@@ -1,0 +1,26 @@
+.LinksContainer {
+  height: 120px;
+  width: 90%;
+  background-image: url("/ui/background-logo.png");
+  background-repeat: no-repeat;
+  background-size: 90px 90px;
+  background-position: bottom right;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 15px;
+}
+
+.Link {
+  color: #1c294b;
+  font-weight: bolder;
+  font-stretch: narrower;
+  font-size: 11px;
+  margin-top: 3px;
+}
+
+.LeftLinksContiner {
+  display: flex;
+  flex-direction: column;
+}

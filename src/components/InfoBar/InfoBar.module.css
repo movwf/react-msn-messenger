@@ -1,0 +1,65 @@
+.UserInfo {
+  height: 120px;
+  width: 95%;
+  border-radius: 10px;
+  border: 1px solid #d5d5d5;
+  background-image: url("/ui/info-bar.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Avatar {
+  margin: 0 10px;
+}
+
+.UserInformation {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 18px 0;
+}
+
+.Username {
+  color: black;
+  font-weight: 600;
+  font-stretch: narrower;
+  font-size: 16px;
+}
+
+.Description {
+  color: black;
+  font-weight: 300;
+  font-stretch: narrower;
+  font-size: 16px;
+}
+
+.SessionData {
+  color: #071437;
+  font-weight: bolder;
+  font-stretch: narrower;
+  font-size: 16px;
+  height: 16px;
+  width: 280px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.Logout {
+  color: #1c294b;
+  width: 55px;
+  font-weight: bolder;
+  font-stretch: narrower;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 15px;
+  margin-top: 7px;
+}
+
+.Logout:hover {
+  background-color: beige;
+}

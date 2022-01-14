@@ -1,0 +1,13 @@
+.ToggleCircle {
+  height: 19px;
+  width: 19px;
+  background-image: url("/ui/small-circle-button.png");
+  background-repeat: no-repeat;
+  background-size: 19px 19px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin: 0px 5px;
+}

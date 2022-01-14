@@ -1,0 +1,23 @@
+.TopBar {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.MsnLogo {
+  height: 19px;
+  margin-right: 5px;
+}
+
+.MsnLabel {
+  color: #1c294b;
+  font-weight: bolder;
+  font-stretch: narrower;
+  font-size: 12px;
+  padding-top: 5px;
+  user-select: none;
+  -webkit-user-select: none;
+}

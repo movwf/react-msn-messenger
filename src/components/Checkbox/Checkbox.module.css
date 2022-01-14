@@ -1,0 +1,28 @@
+.CheckboxContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 10px 0;
+}
+
+.CheckboxItem {
+  height: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Checkbox {
+  cursor: pointer;
+}
+
+.CheckboxLabel {
+  color: #182258;
+  font-weight: normal;
+  font-stretch: narrower;
+  font-size: 12px;
+  margin-left: 1px;
+  cursor: pointer;
+}

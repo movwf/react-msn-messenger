@@ -1,0 +1,22 @@
+.Footer {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.Logo {
+  height: 19px;
+  margin: 0px 8px;
+}
+
+.GithubLabel {
+  color: #1c294b;
+  font-weight: bolder;
+  font-stretch: narrower;
+  font-size: 12px;
+  user-select: none;
+  -webkit-user-select: none;
+}

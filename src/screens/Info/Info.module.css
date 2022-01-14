@@ -1,0 +1,114 @@
+.InfoBody {
+  height: 620px;
+  width: 95%;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: inset 0px 0px 3px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: row;
+}
+
+.TabBar {
+  height: 100%;
+  width: 70px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: #eceff4;
+  border-right: 1px solid #aeb5c6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5px;
+}
+
+.TabButton {
+  height: 63px;
+  width: 63px;
+  box-shadow: inset 0px 0px 3px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  background-color: white;
+  margin-bottom: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.TabButtonSelected {
+  height: 63px;
+  width: 63px;
+  box-shadow: inset 0px 0px 3px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  background-color: #a0aeca;
+  margin-bottom: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.TabButton:hover {
+  background-color: #eceff4;
+}
+
+.TabMain {
+  height: 620px;
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.TabBody {
+  height: 500px;
+  width: 100%;
+  padding: 15px;
+  overflow: hidden;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.TabBody::-webkit-scrollbar {
+  display: none;
+}
+
+.TabBody span {
+  white-space: pre-wrap;
+  text-overflow: ellipsis;
+}
+
+.Title {
+  background-color: yellow;
+}
+
+.Title span {
+  background-color: green;
+  color: white;
+}
+
+.Key {
+  background-color: pink;
+}
+
+.AdArea {
+  height: 120px;
+  width: 100%;
+  border-top: 2px solid #aeb5c6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Ad {
+  height: 100px;
+  width: 250px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

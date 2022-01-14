@@ -1,0 +1,28 @@
+.RadioContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 10px 0;
+}
+
+.RadioItem {
+  height: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Radio {
+  cursor: pointer;
+}
+
+.RadioLabel {
+  color: #182258;
+  font-weight: normal;
+  font-stretch: narrower;
+  font-size: 12px;
+  margin-left: 1px;
+  cursor: pointer;
+}
